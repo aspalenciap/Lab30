@@ -6,6 +6,6 @@ angular.module('lab30.controllers', ['lab30.services'])
     'use strict';
     data.query(function(data){
        $scope.data = data;
-       $scope.predicate = 'name';
+       /* $scope.predicate = 'name'; */
     });
 });
